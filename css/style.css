@@ -168,6 +168,32 @@ p{
 
     padding:2px 0;
 }
+
+
+.carousel-captions {
+    position: absolute;
+    right: 0%;
+    /* bottom: 0px; */
+    top:50%;
+    left: 10%;
+    /* z-index: 10; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+}
+@media(max-width:576px){
+    .carousel-item{
+        display:none;
+    }
+    .carousel-inner{
+        display: none;
+    }
+    #carouselExampleCaptions{
+        display: none;
+
+    }
+}
 /* popular crisus */
 .popular_title{
 	color:#48C9C6;
